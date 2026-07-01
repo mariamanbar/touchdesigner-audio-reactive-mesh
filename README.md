@@ -1,4 +1,6 @@
-# Audio Reactive Mesh
+<h1 align="center">⭓ Audio Reactive Mesh ⯂</h1>
+
+https://github.com/user-attachments/assets/3e0f9c2f-3adc-4a22-b9db-dabe966e395b
 
 A real-time, audio-reactive geometric visualizer built in TouchDesigner.  
 The network processes live audio data to drive the scale and motion of a wireframe mandala, creating an immersive, fluid tunnel effect.
