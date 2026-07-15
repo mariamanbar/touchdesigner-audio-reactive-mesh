@@ -2,6 +2,7 @@
 
 https://github.com/user-attachments/assets/3e0f9c2f-3adc-4a22-b9db-dabe966e395b
 
+[![Documentation](https://img.shields.io/badge/docs-MkDocs_Material-indigo.svg)](https://mariamanbar.github.io/touchdesigner-audio-reactive-mesh/)  
 A real-time, audio-reactive geometric visualizer built in TouchDesigner.  
 The network processes live audio data to drive the scale and motion of a wireframe mandala, creating an immersive, fluid tunnel effect.
 
