@@ -1,0 +1,35 @@
+site_name: TouchDesigner Audio-Reactive Mesh
+site_description: Technical documentation structured using the Diátaxis framework.
+site_author: Mariam Anbar
+site_url: https://mariamanbar.github.io/touchdesigner-audio-reactive-mesh/
+
+repo_name: mariamanbar/touchdesigner-audio-reactive-mesh
+repo_url: https://github.com/mariamanbar/touchdesigner-audio-reactive-mesh
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple  
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple  
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Tutorial: tutorial.md
+  - How-To Guide: how-to.md
+  - Reference: reference.md
+
+copyright: Copyright &copy; 2026 Mariam Anbar
