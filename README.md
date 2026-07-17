@@ -14,11 +14,30 @@ Developed as an exploration of procedural geometry and real-time data integratio
 * **Feedback Stacks:** Uses TOP-layer post-processing feedback loops to create soft, evolving motion trails.
 
 ## ★ How to Run
+### Option 1: Download the Stable Release (Recommended)
+1. Go to the **Releases** section on the right side of this repository page and download the latest `release.tar.gz`.
+2. Extract the archive on your local machine.
 
+### Option 2:
+Alternatively,
 1. Clone or download this repository to your local machine.
 2. Open `audioReactive.toe` inside TouchDesigner.
 3. Import your audio:
    * Select the **`audiofilein1`** node on the far left.
    * In the top-right parameter window, click the **`+`** icon next to the **File** field.
    * Select the included `Consciousness - Anyma .mp3` track (or drop in your own audio file).
-4. Ensure the TouchDesigner timeline play mode at the bottom is set to **Sequential** and press the **Spacebar** to play.
+4. Ensure the TouchDesigner timeline play mode at the bottom is set to **Sequential** and press the **Spacebar** to play.  
+
+## ★ Security & Software Supply Chain Verification
+
+This repository follows secure distribution practices. The release artifacts are cryptographically signed using **Sigstore (cosign)** via keyless authentication linked to GitHub OIDC[cite: 1].
+
+To verify the integrity and authenticity of the downloaded release artifact, make sure you have `cosign` installed and run the following command:
+
+```bash
+cosign verify-blob \
+  --certificate release.tar.gz.pem \
+  --signature release.tar.gz.sig \
+  --certificate-identity '[https://github.com/mariamanbar](https://github.com/mariamanbar)' \
+  --certificate-oidc-issuer '[https://github.com/login/oauth](https://github.com/login/oauth)' \
+  ./release.tar.gz
