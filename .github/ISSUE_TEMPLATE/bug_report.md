@@ -1,3 +1,11 @@
+---
+name: Bug Report
+about: Create a report to help fix a bug or broken network operator
+title: ''
+labels: 'bug'
+assignees: ''
+---
+
 <!-- Please search existing issues before opening a new one to avoid duplicates. -->
 
 ## Bug Description
