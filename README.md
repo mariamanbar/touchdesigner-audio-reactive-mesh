@@ -2,7 +2,9 @@
 
 https://github.com/user-attachments/assets/3e0f9c2f-3adc-4a22-b9db-dabe966e395b
 
-[![Documentation](https://img.shields.io/badge/docs-MkDocs_Material-indigo.svg)](https://mariamanbar.github.io/touchdesigner-audio-reactive-mesh/)  
+[![Documentation](https://img.shields.io/badge/docs-MkDocs_Material-indigo.svg)](https://mariamanbar.github.io/touchdesigner-audio-reactive-mesh/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A real-time, audio-reactive geometric visualizer built in TouchDesigner.  
 The network processes live audio data to drive the scale and motion of a wireframe mandala, creating an immersive, fluid tunnel effect.
 
@@ -41,3 +43,8 @@ cosign verify-blob \
   --certificate-identity '[https://github.com/mariamanbar](https://github.com/mariamanbar)' \
   --certificate-oidc-issuer '[https://github.com/login/oauth](https://github.com/login/oauth)' \
   ./release.tar.gz
+```
+
+## ★ License
+Copyright (c) 2026 meme ★ (@mariamanbar)  
+Distributed under the MIT License. See [LICENSE](https://github.com/mariamanbar/touchdesigner-audio-reactive-mesh/blob/main/LICENSE) for more information.
